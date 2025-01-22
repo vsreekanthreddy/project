@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Platform</title>
+    <!-- Include the correct path to your style.css file -->
+<link rel="stylesheet" href="FarmerCrop/style.css">
+<script src="FarmerCrop/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Farmer1</h1>
+    </header>
+
+    <main>
+        <!-- Crop Content -->
+        <section id="crop-info">
+            <h2>Select a Crop</h2>
+            <select id="crop-select" onchange="displayCropDetails()">
+                <option value="">--Choose a Crop--</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Rice">Rice</option>
+                <option value="Maize">Maize</option>
+                <option value="Cotton">Cotton</option>
+                <option value="Soybean">Soybean</option>
+            </select>
+            <p id="crop-details"></p>
+        </section>
+
+        <!-- Video Section -->
+        <section id="videos">
+            <h2>Crop Video</h2>
+            <div id="video-container"></div>
+        </section>
+
+        <!-- Precautions -->
+        <section id="precautions">
+            <h2>Crop Precautions</h2>
+            <ul id="precaution-list"></ul>
+        </section>
+    </main>
+
+    <!-- Include the correct path to your script.js file -->
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</body>
+</html>

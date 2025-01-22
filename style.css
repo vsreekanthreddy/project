@@ -1,0 +1,54 @@
+/* Corrected CSS for the Agricultural Platform */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: url('https://img.freepik.com/free-photo/rural-landscape_53876-138077.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  color: #fff;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
